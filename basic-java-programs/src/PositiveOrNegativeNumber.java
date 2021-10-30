@@ -12,6 +12,7 @@ positive, else if the number is less than zero, then the number is negative and 
     N > 0 then, number is Positive.
     N < 0 then, number is Negative.
     N = 0 then, number is Zero.
+    
  */
 
 import java.util.Scanner;
