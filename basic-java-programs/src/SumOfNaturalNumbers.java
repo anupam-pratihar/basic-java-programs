@@ -9,7 +9,7 @@ non-negative number.
 
 Example: Natural number={1,2,,4,5,6,…….}.
 
-So we will perform the calculation Operation on Natural number using C++ programming approach.
+So we will perform the calculation Operation on Natural number using java programming approach.
  */
 
 import java.io.*;
