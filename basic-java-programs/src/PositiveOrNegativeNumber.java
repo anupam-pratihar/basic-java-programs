@@ -28,10 +28,8 @@ public class PositiveOrNegativeNumber
 		else if (n < 0)
 			System.out.println(n+" is a negative number.");
 		else if (n == 0)
-			System.out.println(n+" is zero in words :)");
-		
+			System.out.println(n+" is zero in words :)");	
 	}
-
 }
 
 /*
