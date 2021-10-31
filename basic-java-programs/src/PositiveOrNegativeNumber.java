@@ -16,9 +16,10 @@ positive, else if the number is less than zero, then the number is negative and 
  */
 
 import java.util.Scanner;
-public class PositiveOrNegativeNumber {
-
-	public static void main(String[] args) {
+public class PositiveOrNegativeNumber
+{
+	public static void main(String[] args)
+	{
 		Scanner sc=new Scanner(System.in); //same issue of resource leak
 		int n=0;
 		n=sc.nextInt();
