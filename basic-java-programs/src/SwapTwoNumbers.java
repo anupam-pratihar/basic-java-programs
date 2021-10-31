@@ -73,4 +73,5 @@ public class SwapTwoNumbers
  * also close System.in which is typically not desirable.
  * It's because you won't be able to read from it again. I. e. you will get
  * java.util.NoSuchElementException: No line found if you try to call (new Scanner(System.in)).nextLine().
+ * Search on this topic for better understanding.
  */
