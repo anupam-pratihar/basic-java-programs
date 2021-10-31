@@ -35,5 +35,5 @@ public class EvenOrOdd
  * Bug:
  * Used BufferedReader class in this program. There was no memory leak in this code and we did not 
  * need to explicitly use in.close() here. 
- * Read: shorturl.at/lzEMU
+ * Read this article for better explanation: shorturl.at/lzEMU
  */
