@@ -6,9 +6,5 @@
  ### At the end, I will also be adding the bugs that I faced writing these programs including the solution to it.
  ### I will later on add the program names serially in this repo description for smooth accessibility.
  ### Initially I am setting the goal of adding 10 programs per day.
- 
- ## Programs:
- ### 1. Swap two numbers
- ### 2. Positive or Negative Number
 
 ## Happy learning!!!
