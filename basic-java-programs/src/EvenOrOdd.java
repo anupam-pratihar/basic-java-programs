@@ -19,6 +19,7 @@ public class EvenOrOdd
 	{
 		BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
 		int n=0;
+		System.out.println("Enter a number:");
 		n=Integer.parseInt(in.readLine());
 		if(n>0)
 		{

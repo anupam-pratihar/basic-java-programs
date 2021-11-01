@@ -9,7 +9,7 @@ non-negative number.
 
 Example: Natural number={1,2,,4,5,6,…….}.
 
-So we will perform the calculation Operation on Natural number using java programming approach.
+So we will perform the calculation Operation on Natural number using for loop.
  */
 
 import java.io.*;
@@ -19,12 +19,13 @@ public class SumOfNaturalNumbers
 	{
 		BufferedReader in=new BufferedReader(new InputStreamReader(System.in));
 		int n=0,add=0,i=0;
+		System.out.println("Enter a number: ");
 		n=Integer.parseInt(in.readLine());
 		for(i=1;i<=n;i++)
 		{
 			add=add+i;
 		}
-		System.out.println("Sum of first "+n+" natural numbers= "+add);
+		System.out.println("Sum of first "+n+" natural numbers = "+add);
 	}
 }
 

@@ -22,6 +22,7 @@ public class PositiveOrNegativeNumber
 	{
 		Scanner sc=new Scanner(System.in); //same issue of resource leak
 		int n=0;
+		System.out.println("Enter a number:");
 		n=sc.nextInt();
 		if (n > 0)
 			System.out.println(n+" is a positive number.");

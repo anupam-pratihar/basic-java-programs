@@ -40,9 +40,11 @@ public class SwapTwoNumbers
 		
 		try //try-finally block implemented to stop resource/memory leak from Scanner sc object
 		{
+			System.out.println("Enter total number of test cases: ");
 			n=sc.nextInt(); 
 			int []a=new int[n];
 			int []b=new int[n];
+			System.out.println("Fill the array respectively: ");
 			for(i=0;i<n;i++)
 			{
 				a[i]=sc.nextInt();

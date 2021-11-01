@@ -21,13 +21,17 @@ public class SumNaturalNumbersRange
 	{
 		BufferedReader in=new BufferedReader(new InputStreamReader(System.in));
 		int n=0,m=0,add=0,i=0;
+		System.out.println("Enter two numbers:");
 		m=Integer.parseInt(in.readLine());
 		n=Integer.parseInt(in.readLine());
-		for(i=m;i<=n;i++)
+		if (m < n)
 		{
-			add=add+i;
+			for(i=m;i<=n;i++)
+				{
+					add=add+i;
+				}
 		}
-		System.out.println("Sum of natural numbers between "+m+" and "+n+"= "+add);
+		System.out.println("Sum of natural numbers between "+m+" and "+n+" = "+add);
 	}
 }
 
