@@ -29,7 +29,7 @@ class Man extends Human // when a class extends an abstract class, we need to im
 }
 
 // Why we need abstract class?
-// * We dont want anyone to create an object of abstract class
+// * We dont want to create an object of abstract class
 // * Instead of wasting 2-3 methods performing the same thing but with little changes, 
 //   we can use only one method which accepts all the sub class objects.
 
