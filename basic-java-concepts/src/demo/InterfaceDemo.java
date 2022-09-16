@@ -23,6 +23,7 @@ package demo;
 *  -> Interfaces are by default public abstract.
 *     
 *     We can create the reference of interface, but we cannot create the object of it.
+* 	
 */
 interface writer1
 {
