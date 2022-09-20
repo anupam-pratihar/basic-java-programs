@@ -12,10 +12,10 @@ import com.javaDemo.*;
  * The scope of default access is only restricted to the same package.
  * 
  *  We can make our methods as public, private and protected.
- *  Private:   Specific class
- *  Default:   Specific package
- *  Public:    Any class or package
- *  Protected: Subsiding class
+ *  Private:   Specific class (same class)
+ *  Default:   Specific package (same package)
+ *  Public:    Any class or package (anywhere)
+ *  Protected: Subsiding class (same package or another package provided it is a sub class)
  *  
  *  package demo -> AccessModifiersDemo.java
  *  package com.javaDemo -> Access ModifierExample.java, Engineer.java
