@@ -19,6 +19,11 @@ package com.javaDemo;
  *  Finally is a block which will be executed even if we get an exception or not. This helps in 
  *  code redundancy.
  *  
+ *  It is divided into- checked and unchecked exceptions.
+ *  Runtime exceptions are unchecked exceptions. Eg. Arithmetic Exception, NullPointer Exception,etc.
+ *  Checked exceptions are those that are forced by the compiler from the start of the code.
+ *  Eg. IOException, NumberFormat Exception,etc
+ *  
  */
 public class ExceptionDemo {
 
