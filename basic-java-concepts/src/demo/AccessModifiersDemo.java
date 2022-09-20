@@ -16,6 +16,13 @@ import com.javaDemo.*;
  *  Default:   Specific package
  *  Public:    Any class or package
  *  Protected: Subsiding class
+ *  
+ *  package demo -> AccessModifiersDemo.java
+ *  package com.javaDemo -> Access ModifierExample.java, Engineer.java
+ *  package com.javaDemo.test -> Student.java, DemoMain.java
+ *  
+ *  All these programs have examples of the major access modifiers and whether they are accepted or not
+ *  through different files and packages.
  * 
 */
 
